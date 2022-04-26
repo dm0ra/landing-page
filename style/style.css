@@ -25,7 +25,7 @@ body {
 
 .header{
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     padding:inherit;
     padding-top:10px;
     padding-bottom:10px;
@@ -35,9 +35,10 @@ body {
     margin:0px;
     margin-left:auto;
     display:flex;
-    gap: 10px;
+    gap: 30px;
     padding:0px;
-    font-size: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .section1-content{
@@ -64,7 +65,18 @@ body {
 
 .section1-content-image{
     flex: 1;
-    max-width: 300px;
+    width:100%;
+    max-width: 600px;
+}
+
+.logo-container{
+    display:flex;
+    flex:1 1 0;
+}
+
+.logo{
+    flex: 1;
+    max-width: 100px;
 }
 
 .section2{
@@ -111,4 +123,20 @@ a{
 
 li{
     list-style: none;
+}
+
+.big-text{
+   font-size: 48px;
+   font-weight: bolder;
+   color:#F9FAF8;
+   margin: 0;
+}
+
+.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width:100px;
 }
